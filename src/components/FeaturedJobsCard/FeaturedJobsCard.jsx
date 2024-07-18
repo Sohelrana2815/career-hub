@@ -25,6 +25,9 @@ const FeaturedJobsCard = ({ featuredJob }) => {
               {salary}
             </p>
           </div>
+          <div className="flex items-start">
+            <button className="btn btn-primary">View details</button>
+          </div>
         </div>
       </div>
     </>

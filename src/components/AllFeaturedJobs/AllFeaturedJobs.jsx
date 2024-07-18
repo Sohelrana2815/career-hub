@@ -3,6 +3,13 @@ import FeaturedJobsCard from "../FeaturedJobsCard/FeaturedJobsCard";
 
 const AllFeaturedJobs = () => {
   const [featuredJobs, setFeaturedJobs] = useState([]);
+  const [showAll, setShowAll] = useState(false);
+
+  const visibleJobs = showAll ? featuredJobs : featuredJobs.slice(0, 4);
+
+  const handleShowAll = () => {
+    setShowAll(true);
+  };
 
   useEffect(() => {
     fetch("allJobs.json")
@@ -14,13 +21,21 @@ const AllFeaturedJobs = () => {
   return (
     <div>
       <div className="grid md:grid-cols-2 gap-6 mt-36 space-y-7">
-        {featuredJobs.map((featuredJob) => (
+        {visibleJobs.map((featuredJob) => (
           <FeaturedJobsCard
             key={featuredJob.id}
             featuredJob={featuredJob}
           ></FeaturedJobsCard>
         ))}
       </div>
+      {
+        <button
+          onClick={handleShowAll}
+          className={`btn btn-secondary mt-10 ${showAll ? "hidden" : ""}`}
+        >
+          Show all
+        </button>
+      }
     </div>
   );
 };

@@ -1,4 +1,6 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../../shared/Navbar/Navbar";
+import Footer from "../../shared/Navbar/Footer/Footer";
 
 const Root = () => {
   const jobCategoryContent = {
@@ -11,9 +13,15 @@ const Root = () => {
   };
 
   return (
-    <div className="lg:w-[1600px] mx-auto mt-10">
-      <Outlet context={{ jobCategoryContent, featuredJobsContent }} />
-    </div>
+    <>
+      <div className="lg:w-[1600px] mx-auto mt-10 min-h-screen ">
+        <Navbar></Navbar>
+        <Outlet context={{ jobCategoryContent, featuredJobsContent }} />
+      </div>
+      <div className="mt-36">
+        <Footer></Footer>
+      </div>
+    </>
   );
 };
 
