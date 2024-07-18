@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "logo": "https://i.postimg.cc/RZHfr805/accounts.png",
+    "title": "TechCorp",
+    "jobsAvailable": 10
+  },
+  {
+    "id": 2,
+    "logo": "https://i.postimg.cc/pdMjPZ99/creative.png",
+    "title": "HealthPlus",
+    "jobsAvailable": 7
+  },
+  {
+    "id": 3,
+    "logo": "https://i.postimg.cc/pdQFrF8s/marketing.png",
+    "title": "EduSphere",
+    "jobsAvailable": 5
+  },
+  {
+    "id": 4,
+    "logo": "https://i.postimg.cc/hjS7dt1c/chip.png",
+    "title": "FinServe",
+    "jobsAvailable": 3
+  }
+]

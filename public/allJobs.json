@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "logo": "https://i.postimg.cc/D0d5SjzX/airbnb.png",
+    "jobTitle": "Software Engineer",
+    "company": "TechCorp",
+    "type": "remote",
+    "location": "New York, NY",
+    "salary": "120,000 - $140,000",
+    "category": "Full Time"
+  },
+  {
+    "id": 2,
+    "logo": "https://i.postimg.cc/zfsk0Zbh/google.png",
+    "jobTitle": "Graphic Designer",
+    "company": "HealthPlus",
+    "type": "onsite",
+    "location": "Los Angeles, CA",
+    "salary": "50,000 - $70,000",
+    "category": "Part Time"
+  },
+  {
+    "id": 3,
+    "logo": "https://i.postimg.cc/qRH82sSX/netflix.png",
+    "jobTitle": "Marketing Manager",
+    "company": "EduSphere",
+    "type": "remote",
+    "location": "Chicago, IL",
+    "salary": "80,000 - $100,000",
+    "category": "Contract"
+  },
+  {
+    "id": 4,
+    "logo": "https://i.postimg.cc/LXkjDqMd/tesla.png",
+    "jobTitle": "Data Analyst",
+    "company": "FinServe",
+    "type": "onsite",
+    "location": "San Francisco, CA",
+    "salary": "90,000 - $110,000",
+    "category": "Full Time"
+  },
+  {
+    "id": 5,
+    "logo": "https://i.postimg.cc/D0d5SjzX/airbnb.png",
+    "jobTitle": "Project Manager",
+    "company": "BuildIt",
+    "type": "remote",
+    "location": "Seattle, WA",
+    "salary": "100,000 - $130,000",
+    "category": "Part Time"
+  },
+  {
+    "id": 6,
+    "logo": "https://i.postimg.cc/zfsk0Zbh/google.png",
+    "jobTitle": "Human Resources Specialist",
+    "company": "PeopleFirst",
+    "type": "onsite",
+    "location": "Austin, TX",
+    "salary": "60,000 - $80,000",
+    "category": "Full Time"
+  },
+  {
+    "id": 7,
+    "logo": "https://i.postimg.cc/qRH82sSX/netflix.png",
+    "jobTitle": "Content Writer",
+    "company": "WriteWell",
+    "type": "remote",
+    "location": "Boston, MA",
+    "salary": "45,000 - $65,000",
+    "category": "Contract"
+  },
+  {
+    "id": 8,
+    "logo": "https://i.postimg.cc/LXkjDqMd/tesla.png",
+    "jobTitle": "Customer Support Specialist",
+    "company": "HelpDesk",
+    "type": "onsite",
+    "location": "Denver, CO",
+    "salary": "40,000 - $55,000",
+    "category": "Part Time"
+  }
+]
