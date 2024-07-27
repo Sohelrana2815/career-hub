@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import { FaDollarSign, FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const FeaturedJobsCard = ({ featuredJob }) => {
-  const { logo, jobTitle, company, type, location, salary, category } =
+  const { logo, jobTitle, company, type, location, salary, category, id } =
     featuredJob;
   return (
     <>
@@ -26,7 +27,11 @@ const FeaturedJobsCard = ({ featuredJob }) => {
             </p>
           </div>
           <div className="flex items-start">
-            <button className="btn btn-primary">View details</button>
+            <Link to={`/details/${id}`}>
+              <button className=" btn bg-gradient-to-r from-indigo-400 to-violet-500 text-white py-3 px-6 rounded-md shadow-md hover:shadow-lg">
+               View details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

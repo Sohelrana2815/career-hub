@@ -13,7 +13,9 @@ const Banner = () => {
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
           </p>
-          <button className="btn btn-primary mt-8">Get Started</button>
+          <button className=" btn bg-gradient-to-r from-indigo-400 to-violet-500 text-white py-3 mt-8 px-6 rounded-md shadow-md hover:shadow-lg">
+            Get Started
+          </button>
         </div>
         {/* Right side: Image */}
         <div className="md:w-1/2 flex justify-center">

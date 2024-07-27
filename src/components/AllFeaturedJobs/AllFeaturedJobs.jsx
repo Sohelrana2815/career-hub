@@ -31,7 +31,9 @@ const AllFeaturedJobs = () => {
       {
         <button
           onClick={handleShowAll}
-          className={`btn btn-secondary mt-10 ${showAll ? "hidden" : ""}`}
+          className={`btn bg-gradient-to-r from-indigo-400 to-violet-500 text-white py-3 mt-8 px-6 rounded-md shadow-md hover:shadow-lg
+          
+        ${showAll ? "hidden" : ""}`}
         >
           Show all
         </button>

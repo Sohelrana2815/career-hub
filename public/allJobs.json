@@ -7,7 +7,20 @@
     "type": "remote",
     "location": "New York, NY",
     "salary": "120,000 - $140,000",
-    "category": "Full Time"
+    "category": "Full Time",
+    "description": "Join our innovative team as a Software Engineer and contribute to cutting-edge software solutions.",
+    "responsibilities": [
+      "Develop high-quality software solutions",
+      "Collaborate with product managers and designers",
+      "Troubleshoot, debug, and upgrade existing software"
+    ],
+    "educationalRequirement": "Bachelor's degree in Computer Science or related field",
+    "experience": "Minimum 3 years of experience in software development",
+    "contactInfo": {
+      "phone": "123-456-7890",
+      "email": "jobs@techcorp.com",
+      "address": "123 TechCorp Street, New York, NY"
+    }
   },
   {
     "id": 2,
@@ -17,7 +30,20 @@
     "type": "onsite",
     "location": "Los Angeles, CA",
     "salary": "50,000 - $70,000",
-    "category": "Part Time"
+    "category": "Part Time",
+    "description": "We are seeking a creative Graphic Designer to join our dynamic marketing team.",
+    "responsibilities": [
+      "Create visually appealing graphics and layouts",
+      "Collaborate with marketing and creative teams",
+      "Ensure brand consistency across all visual assets"
+    ],
+    "educationalRequirement": "Bachelor's degree in Graphic Design or related field",
+    "experience": "Minimum 2 years of experience in graphic design",
+    "contactInfo": {
+      "phone": "987-654-3210",
+      "email": "jobs@healthplus.com",
+      "address": "456 HealthPlus Avenue, Los Angeles, CA"
+    }
   },
   {
     "id": 3,
@@ -27,7 +53,20 @@
     "type": "remote",
     "location": "Chicago, IL",
     "salary": "80,000 - $100,000",
-    "category": "Contract"
+    "category": "Contract",
+    "description": "Lead our marketing efforts as a Marketing Manager and drive strategic campaigns.",
+    "responsibilities": [
+      "Develop and implement marketing strategies",
+      "Manage marketing budgets and campaigns",
+      "Analyze market trends and competitor activities"
+    ],
+    "educationalRequirement": "Bachelor's degree in Marketing, Business, or related field",
+    "experience": "Minimum 5 years of experience in marketing management",
+    "contactInfo": {
+      "phone": "555-123-4567",
+      "email": "jobs@edusphere.com",
+      "address": "789 EduSphere Way, Chicago, IL"
+    }
   },
   {
     "id": 4,
@@ -37,7 +76,20 @@
     "type": "onsite",
     "location": "San Francisco, CA",
     "salary": "90,000 - $110,000",
-    "category": "Full Time"
+    "category": "Full Time",
+    "description": "Join our finance team as a Data Analyst and help analyze and interpret financial data.",
+    "responsibilities": [
+      "Collect, analyze, and interpret financial data",
+      "Prepare reports and presentations",
+      "Identify trends and insights to support strategic decisions"
+    ],
+    "educationalRequirement": "Bachelor's degree in Finance, Economics, Statistics, or related field",
+    "experience": "Minimum 3 years of experience as a data analyst",
+    "contactInfo": {
+      "phone": "415-555-6789",
+      "email": "jobs@finserve.com",
+      "address": "101 FinServe Street, San Francisco, CA"
+    }
   },
   {
     "id": 5,
@@ -47,7 +99,20 @@
     "type": "remote",
     "location": "Seattle, WA",
     "salary": "100,000 - $130,000",
-    "category": "Part Time"
+    "category": "Part Time",
+    "description": "Manage our projects remotely as a Project Manager and ensure timely delivery and quality.",
+    "responsibilities": [
+      "Plan and oversee project timelines and milestones",
+      "Coordinate resources and stakeholders",
+      "Monitor project progress and budget"
+    ],
+    "educationalRequirement": "Bachelor's degree in Project Management, Business Administration, or related field",
+    "experience": "Minimum 5 years of experience in project management",
+    "contactInfo": {
+      "phone": "206-555-1234",
+      "email": "jobs@buildit.com",
+      "address": "456 BuildIt Lane, Seattle, WA"
+    }
   },
   {
     "id": 6,
@@ -57,7 +122,20 @@
     "type": "onsite",
     "location": "Austin, TX",
     "salary": "60,000 - $80,000",
-    "category": "Full Time"
+    "category": "Full Time",
+    "description": "Support our HR initiatives as a Human Resources Specialist and foster a positive work environment.",
+    "responsibilities": [
+      "Manage recruitment and onboarding processes",
+      "Administer employee benefits and policies",
+      "Handle employee relations and performance management"
+    ],
+    "educationalRequirement": "Bachelor's degree in Human Resources Management or related field",
+    "experience": "Minimum 3 years of experience in HR roles",
+    "contactInfo": {
+      "phone": "512-555-9876",
+      "email": "jobs@peoplefirst.com",
+      "address": "789 PeopleFirst Avenue, Austin, TX"
+    }
   },
   {
     "id": 7,
@@ -67,7 +145,20 @@
     "type": "remote",
     "location": "Boston, MA",
     "salary": "45,000 - $65,000",
-    "category": "Contract"
+    "category": "Contract",
+    "description": "Create compelling content as a Content Writer and engage our audience with your writing skills.",
+    "responsibilities": [
+      "Write and edit content for various platforms",
+      "Research topics and trends",
+      "Optimize content for SEO and engagement"
+    ],
+    "educationalRequirement": "Bachelor's degree in English, Journalism, Communications, or related field",
+    "experience": "Minimum 2 years of experience in content writing or journalism",
+    "contactInfo": {
+      "phone": "617-555-2345",
+      "email": "jobs@writewell.com",
+      "address": "101 WriteWell Street, Boston, MA"
+    }
   },
   {
     "id": 8,
@@ -77,6 +168,19 @@
     "type": "onsite",
     "location": "Denver, CO",
     "salary": "40,000 - $55,000",
-    "category": "Part Time"
+    "category": "Part Time",
+    "description": "Provide excellent customer service as a Customer Support Specialist and assist customers with their inquiries and issues.",
+    "responsibilities": [
+      "Respond to customer inquiries via phone, email, and chat",
+      "Resolve customer issues efficiently and professionally",
+      "Escalate complex issues to appropriate teams"
+    ],
+    "educationalRequirement": "High school diploma or equivalent; additional education in customer service is a plus",
+    "experience": "Minimum 1 year of experience in customer support or related roles",
+    "contactInfo": {
+      "phone": "303-555-5678",
+      "email": "jobs@helpdesk.com",
+      "address": "789 HelpDesk Avenue, Denver, CO"
+    }
   }
 ]
